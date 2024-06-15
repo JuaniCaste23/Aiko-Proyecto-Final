@@ -1,0 +1,27 @@
+:root {
+    :root {
+        /*colors primary*/
+        --dark-blue: hsl(198, 62%, 26%);
+        --netbialet-color-primary: #28377d;
+        --netbialet-color-second: #70c8e9;
+        /*colors neutral*/
+        --very-dark-desatured-blue: hsl(212, 27%, 19%);
+        --very-dark-grayish-blue: hsl(213, 9%, 39%);
+        --dark-grayish-blue: hsl(232, 10%, 55%);
+        --grayish-blue: hsl(210, 4%, 67%);
+        --just-white: #fff;
+        /*typography*/
+        --font-size: 1.8rem;
+        --font-openSans: 'Open Sans', sans-serif;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
