@@ -1,19 +1,15 @@
 :root {
-    :root {
-        /*colors primary*/
-        --dark-blue: hsl(198, 62%, 26%);
-        --netbialet-color-primary: #28377d;
-        --netbialet-color-second: #70c8e9;
-        /*colors neutral*/
-        --very-dark-desatured-blue: hsl(212, 27%, 19%);
-        --very-dark-grayish-blue: hsl(213, 9%, 39%);
-        --dark-grayish-blue: hsl(232, 10%, 55%);
-        --grayish-blue: hsl(210, 4%, 67%);
-        --just-white: #fff;
-        /*typography*/
-        --font-size: 1.8rem;
-        --font-openSans: 'Open Sans', sans-serif;
-    }
+    /*colors primary*/
+    --dark-blue: hsl(198, 62%, 26%);
+    --netbialet-color-primary: #28377d;
+    --netbialet-color-second: #70c8e9;
+    /*colors neutral*/
+    --dark-grayish-blue: hsl(232, 10%, 55%);
+    --grayish-blue: hsl(210, 4%, 67%);
+    --just-white: #fff;
+    /*typography*/
+    --font-size: 1.8rem;
+    --font-openSans: 'Open Sans', sans-serif;
 }
 
 * {
@@ -24,4 +20,32 @@
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERY */
+
+@media only screen and (min-width: 640px) {
+
+}
+
+@media only screen and (min-width: 820px) {
+
+}
+
+/*ANIMACIONES */
+
+@keyframes netbialet {
+
 }
